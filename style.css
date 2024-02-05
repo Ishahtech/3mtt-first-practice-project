@@ -84,10 +84,33 @@ header {
   }
 
   .about{
-    margin-top: 200px;
+    margin-top: 250px;
   
   }
 
   .about h3{
     text-align: center;
+  }
+
+  .what-ctr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 50%;
+    gap: 1.5rem;
+  }
+  .w-details{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+  }
+  .w-details h4{
+   
+    margin-bottom: 12px;
+  }
+  .w-details p{
+    text-align: left;
+   
   }

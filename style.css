@@ -103,14 +103,16 @@ header {
   .w-details{
     display: flex;
     flex-direction: column;
-    text-align: left;
-
+    text-align: left; 
   }
   .w-details h4{
-   
-    margin-bottom: 12px;
+  margin-bottom: 0;
+  font-size: 20px;
   }
   .w-details p{
     text-align: left;
-   
+   margin-top: 20px;
+   font-size: 18px; 
   }
+
+  

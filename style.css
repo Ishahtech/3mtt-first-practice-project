@@ -115,4 +115,11 @@ header {
    font-size: 18px; 
   }
 
-  
+  .who-ctr{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    text-align: right;
+    background-color: rgba(6, 6, 10, 0.537);
+    color: #ffffff;
+  }

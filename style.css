@@ -115,11 +115,13 @@ header {
    font-size: 18px; 
   }
 
-  .who-ctr{
-    width: 200px;
+  .who-we-are{
+    background-color: gray;
+    width: 550px;
     height: 300px;
-    display: flex;
-    text-align: right;
-    background-color: rgba(6, 6, 10, 0.537);
+    float: right;
+  }
+  section .who-ctr{
+    padding: 8px ;
     color: #ffffff;
   }

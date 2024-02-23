@@ -126,3 +126,18 @@ header {
     padding: 8px ;
     color: #ffffff;
   }
+
+  .partners{
+    margin-top: 450px;
+    text-align: center;
+  }
+
+  .patners-logo{
+    display: flex;
+    justify-content: center;
+  }
+
+  .patners-logo img{
+    width: 120px;
+
+  }

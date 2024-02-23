@@ -129,15 +129,21 @@ header {
 
   .partners{
     margin-top: 450px;
+    font-size: 24px;
     text-align: center;
+  }
+
+  span{
+    color: rgb(79, 207, 79);
   }
 
   .patners-logo{
     display: flex;
     justify-content: center;
+    gap: 4.5rem;
   }
 
   .patners-logo img{
-    width: 120px;
+    width: 100px;
 
   }

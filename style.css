@@ -149,29 +149,45 @@ header {
 
   .contact-ctr{
     background-color:rgb(152, 236, 68);
-    width: 520px;
+    width: 920px;
     padding: 12px 28px;
     margin-top: 72px;
-    height: 520px;
+    height: 400px;
   }
 
   .contact-ctr h3{
     color: #ffffff;
     font-size: 32px;
+    margin: 8px;
   }
 
   .contact-ctr p{
     color: #ffffff;
     font-size: 22px;
+    margin: 12px;
   }
 
-  input, button {
-    width: 420px;
-    margin: 4px 0 12px 0;
-    padding: 8px 2px;
+  form{
+     margin: 4px 0 12px 24px;
+  }
+  input {
+    width: 820px;
+    margin: 0 0 18px 0px;
+    padding: 6px 3px;
   }
 
+  button{
+    width:820px ;
+  }
   input, label, button {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 300;
+    color: white;
+  }
+
+  input{
+    font-size: 14px;
+    border: none;
+    border-top: 2px solid black;
+    border-radius: 4px;
   }

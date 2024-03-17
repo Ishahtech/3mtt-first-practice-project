@@ -152,7 +152,7 @@ header {
     width: 520px;
     padding: 12px 28px;
     margin-top: 72px;
-    height: 400px;
+    height: 520px;
   }
 
   .contact-ctr h3{
@@ -168,4 +168,10 @@ header {
   input, button {
     width: 420px;
     margin: 4px 0 12px 0;
+    padding: 8px 2px;
+  }
+
+  input, label, button {
+    font-size: 20px;
+    font-weight: 300;
   }

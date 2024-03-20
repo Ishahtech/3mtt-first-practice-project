@@ -1,4 +1,4 @@
-body{
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -178,7 +178,11 @@ header {
 
   button{
     width:820px ;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.711);
+
   }
+
   input, label, button {
     font-size: 22px;
     font-weight: 300;
@@ -190,4 +194,12 @@ header {
     border: none;
     border-top: 2px solid black;
     border-radius: 4px;
+  }
+
+  footer{
+    margin-top: 21px;
+    text-align: center;
+    padding: 18px;
+    background-color: black;
+    color: #ffffff;
   }

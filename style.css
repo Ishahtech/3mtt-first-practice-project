@@ -1,205 +1,204 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-
-.container{
+/* .container{
   max-width: 100%;
   height: 75vh;
+} */
+/* navigation styling beginning */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(29, 27, 27, 0.706);
+  overflow: hidden;
+  color: white;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo h3 {
+  margin: 0;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav li {
+  margin-right: 20px; 
+}
+nav a {
+  text-decoration: none;
+  color: white; 
+  font-weight: bold;
+}
+/* navigation styling end */
+
+/* hero section styles beginning */
+.hero-ctr {
   background-image: url(/images/showcase.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  max-width: 100%;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
 }
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px; 
-    background-color:  rgba(29, 27, 27, 0.706);
-    overflow: hidden;
-    color:white;
-    /* position: fixed; 
-    top: 0; 
-    width: 100%; */
-  }
-  
-  .logo {
-    display: flex;
-    align-items: center;
-  }
-  
-  .logo h3 {
-    margin: 0; 
-  }
-  
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  nav li {
-    margin-right: 20px; /* Adjust margin as needed to separate the links */
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: white; /* Adjust link color as needed */
-    font-weight: bold; /* Adjust font weight as needed */
-  }
 
-  .main-ctr{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-   margin-top: 200px;
-    text-align: center;
-    color: white;
-  }
+.hero-ctr h1 {
+  text-transform: capitalize;
+  margin-bottom: 0px;
+  font-size: 36px;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
 
-  .main-ctr h1{
-    text-transform: capitalize;
-    margin-bottom: 0px;
-    font-size: 36px;
-    font-family: sans-serif;
-    font-weight: bolder;
-  }
+.hero-ctr p {
+  font-size: 22px;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 16px 0;
+  line-height: 0;
+}
+.hero-ctr button {
+  padding: 8px;
+  font-size: 22px;
+  background-color: rgb(116, 159, 51);
+  border: none;
+}
+/* hero section styles end */
 
-  .main-ctr p{
-    font-size: 20px;
-    font-family: sans-serif;
-    text-align: center;
-    padding: 16px 0;
-    line-height: 0;
-  } 
-  
-  .main-ctr button{
-    padding: 8px;
-    font-size: 14px;
-    background-color: greenyellow;
-  }
-
-  .about{
-    margin-top: 250px;
-  
-  }
-
-  .about h3{
-    text-align: center;
-  }
-
-  .what-ctr{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    width: 50%;
-    gap: 1.5rem;
-  }
-  .w-details{
-    display: flex;
-    flex-direction: column;
-    text-align: left; 
-  }
-  .w-details h4{
+/* about section styles beginning */
+.container-about {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container-about h3 {
+  text-align: center;
+  font-size: 28px;
   margin-bottom: 0;
+}
+
+.what-ctr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 75%;
+  gap: 4rem;
+  
+}
+.w-details {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.w-details h4 {
+  margin-bottom: 0;
+  font-size: 24px;
+}
+.w-details p {
+  text-align: left;
+  /* margin-top: 20px; */
   font-size: 20px;
-  }
-  .w-details p{
-    text-align: left;
-   margin-top: 20px;
-   font-size: 18px; 
-  }
+}
 
-  .who-we-are{
-    background-color: #000000d7;
-    width: 550px;
-    height: 300px;
-    float: right;
-    margin-top: 24px;
-  }
-  section .who-ctr{
-    padding: 8px ;
-    color: #ffffff;
-  }
+.who-we-are {
+  background-color: #000000d7;
+  width: 550px;
+  height: 300px;
+  float: right;
+  margin-top: 24px;
+}
+section .who-ctr {
+  padding: 8px;
+  color: #ffffff;
+}
 
-  .partners{
-    margin-top: 450px;
-    font-size: 24px;
-    text-align: center;
-  }
+.partners {
+  margin-top: 450px;
+  font-size: 24px;
+  text-align: center;
+}
 
-  span{
-    color: rgb(79, 207, 79);
-  }
+span {
+  color: rgb(79, 207, 79);
+}
 
-  .patners-logo{
-    display: flex;
-    justify-content: center;
-    gap: 4.5rem;
-  }
+.patners-logo {
+  display: flex;
+  justify-content: center;
+  gap: 4.5rem;
+}
 
-  .patners-logo img{
-    width: 100px;
-  }
+.patners-logo img {
+  width: 100px;
+}
 
-  .contact-ctr{
-    background-color:rgb(152, 236, 68);
-    width: 920px;
-    padding: 12px 28px;
-    margin-top: 72px;
-    height: 400px;
-  }
+.contact-ctr {
+  background-color: rgb(152, 236, 68);
+  width: 920px;
+  padding: 12px 28px;
+  margin-top: 72px;
+  height: 400px;
+}
 
-  .contact-ctr h3{
-    color: #ffffff;
-    font-size: 32px;
-    margin: 8px;
-  }
+.contact-ctr h3 {
+  color: #ffffff;
+  font-size: 32px;
+  margin: 8px;
+}
 
-  .contact-ctr p{
-    color: #ffffff;
-    font-size: 22px;
-    margin: 12px;
-  }
+.contact-ctr p {
+  color: #ffffff;
+  font-size: 22px;
+  margin: 12px;
+}
 
-  form{
-     margin: 4px 0 12px 24px;
-  }
-  input {
-    width: 820px;
-    margin: 0 0 18px 0px;
-    padding: 6px 3px;
-  }
+form {
+  margin: 4px 0 12px 24px;
+}
+input {
+  width: 820px;
+  margin: 0 0 18px 0px;
+  padding: 6px 3px;
+}
 
-  button{
-    width:820px ;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.711);
+button {
+  width: 820px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.711);
+}
 
-  }
+input,
+label,
+button {
+  font-size: 22px;
+  font-weight: 300;
+  color: white;
+}
 
-  input, label, button {
-    font-size: 22px;
-    font-weight: 300;
-    color: white;
-  }
+input {
+  font-size: 14px;
+  border: none;
+  border-top: 2px solid black;
+  border-radius: 4px;
+}
 
-  input{
-    font-size: 14px;
-    border: none;
-    border-top: 2px solid black;
-    border-radius: 4px;
-  }
-
-  footer{
-    margin-top: 21px;
-    text-align: center;
-    padding: 18px;
-    background-color: black;
-    color: #ffffff;
-  }
+footer {
+  margin-top: 21px;
+  text-align: center;
+  padding: 18px;
+  background-color: black;
+  color: #ffffff;
+}

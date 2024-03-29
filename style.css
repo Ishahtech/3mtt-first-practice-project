@@ -124,8 +124,10 @@ nav a {
 }
 
 .who-we-are {
-  background-color: #000000d7;
-  width: 550px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #000000b3;
+  font-size: 1;
+  max-width: 650px;
   height: 300px;
   float: right;
   margin-top: 24px;
